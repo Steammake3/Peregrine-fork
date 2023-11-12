@@ -107,6 +107,9 @@ enum TokenType {
     tk_type,      // type defination
     tk_enum,      // enum
     tk_export,    // export
+    tk_0b,        // 0b
+    tk_0o,        // 0o
+    tk_0x,        // 0x
 
     // value type
     tk_decimal,
