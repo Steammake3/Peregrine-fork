@@ -107,9 +107,7 @@ enum TokenType {
     tk_type,      // type defination
     tk_enum,      // enum
     tk_export,    // export
-    tk_0b,        // 0b
-    tk_0o,        // 0o
-    tk_0x,        // 0x
+
 
     // value type
     tk_decimal,
@@ -123,7 +121,10 @@ enum TokenType {
     tk_raw,    // raw string i.e. r
     tk_format, // formatted string i.e. f
     tk_format_str, // anything after f
-    tk_format_str_stopper //end of formated str
+    tk_format_str_stopper, //end of formated str
+    tk_0b,        // 0b
+    tk_0o,        // 0o
+    tk_0x,        // 0x
 };
 
 struct Token {
